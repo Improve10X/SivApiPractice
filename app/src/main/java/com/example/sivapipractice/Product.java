@@ -57,13 +57,13 @@ public class Product {
     private String currentSubTotalPrice;
 
     @SerializedName("current_subtotal_price_set")
-    private Set currentSubtotalPriceSet;
+    private PriceSet currentSubtotalPriceSet;
 
     @SerializedName("current_total_discounts")
     private String currentTotalDiscounts;
 
     @SerializedName("current_total_discounts_set")
-    private Set currentTotalDiscountsSet;
+    private PriceSet currentTotalDiscountsSet;
 
     @SerializedName("current_total_duties_set")
     private String currentTotalDutiesSet;
@@ -72,13 +72,13 @@ public class Product {
     private String currentTotalPrice;
 
     @SerializedName("current_total_price_set")
-    private Set currentTotalPriceSet;
+    private PriceSet currentTotalPriceSet;
 
     @SerializedName("current_total_tax")
     private String currentTotalTax;
 
     @SerializedName("current_total_tax_set")
-    private Set currentTotalTaxSet;
+    private PriceSet currentTotalTaxSet;
 
     @SerializedName("customer_locale")
     private String customerLocale;
@@ -162,7 +162,7 @@ public class Product {
     private String subtotalPrice;
 
     @SerializedName("subtotal_price_set")
-    public Set subtotalPriceSet;
+    public PriceSet subtotalPriceSet;
 
     @SerializedName("tags")
     private String tags;
@@ -180,13 +180,13 @@ public class Product {
     private String totalDiscounts;
 
     @SerializedName("total_discounts_set")
-    public Set totalDiscountsSet;
+    public PriceSet totalDiscountsSet;
 
     @SerializedName("total_line_items_price")
     private String totalLineItemsPrice;
 
     @SerializedName("total_line_items_price_set")
-    public Set totalLineItemsPriceSet;
+    public PriceSet totalLineItemsPriceSet;
 
     @SerializedName("total_outstanding")
     private String totalOutstanding;
@@ -195,19 +195,19 @@ public class Product {
     private String totalPrice;
 
     @SerializedName("total_price_set")
-    public Set totalPriceSet;
+    public PriceSet totalPriceSet;
 
     @SerializedName("total_price_usd")
     private String totalPriceUsd;
 
     @SerializedName("total_shipping_price_set")
-    public Set totalShippingPriceSet;
+    public PriceSet totalShippingPriceSet;
 
     @SerializedName("total_tax")
     private String totalTax;
 
     @SerializedName("total_tax_set")
-    public Set totalTaxSet;
+    public PriceSet totalTaxSet;
 
     @SerializedName("total_tip_received")
     private String totalTipReceived;
@@ -224,7 +224,6 @@ public class Product {
     @SerializedName("discount_applications")
     private List<String> discountApplications;
 
-    @SerializedName("fulfillments")
     private List<String> fulfillments;
 
     @SerializedName("line_items")
